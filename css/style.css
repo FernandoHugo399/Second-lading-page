@@ -123,4 +123,13 @@ html,body{
         margin: 0;
     }  
 
+    .first-container-main{
+        justify-content: center;
+    }
+    
+    .form-container-main{
+        top: 0;
+        right: 0;
+    }
+
 }
