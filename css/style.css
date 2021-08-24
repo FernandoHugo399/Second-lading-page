@@ -137,7 +137,20 @@ html,body{
     font-weight: normal;
 }
 
- @media screen and (max-width:550px){
+@media screen and (max-width:960px){
+    .first-container-main{
+        justify-content: center;
+    }
+    .form-container-main{
+        top: 0;
+        right: 0;
+    }
+    .first-container-main{
+        height: 530px;
+    }
+}
+
+@media screen and (max-width:550px){
     .section-blue h2{
         font-size: 20px;
     }
@@ -159,10 +172,6 @@ html,body{
     .logo-1, .logo-2{
         margin: 0;
     }  
-
-    .first-container-main{
-        justify-content: center;
-    }
     
     .form-container-main{
         top: 0;
