@@ -27,13 +27,30 @@ html,body{
 }
 
 .logo-1 img{
-    margin-left: 10px;
     width: 150px;
 }
 
 .logo-2 img{
     width: 160px;
-    margin-right: 10px;
+}
+
+.logo-1{
+    margin-left: 20px;
+}
+
+.logo-2{
+    margin-right: 20px;
+}
+
+.first-container-main{
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+    background-image: url(../imagens/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
 }
 
 
@@ -45,12 +62,8 @@ html,body{
         padding: 20px 0;
     }
 
-    .logo-1 img{
-        margin-left: 0;
-    }
-    
-    .logo-2 img{
-        width: 160px;
-        margin-right: 0;
-    }
+    .logo-1, .logo-2{
+        margin: 0;
+    }  
+
 }
