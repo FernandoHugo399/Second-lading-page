@@ -9,3 +9,48 @@
 html,body{
     height: 100%;
 }
+
+.container-header{
+    width: 100%;
+    background-color: #D6D6D6;
+}
+
+.center-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.logo-1 img{
+    margin-left: 10px;
+    width: 150px;
+}
+
+.logo-2 img{
+    width: 160px;
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width:510px){
+    .center-header{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 170px;
+        padding: 20px 0;
+    }
+
+    .logo-1 img{
+        margin-left: 0;
+    }
+    
+    .logo-2 img{
+        width: 160px;
+        margin-right: 0;
+    }
+}
