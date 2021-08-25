@@ -43,7 +43,7 @@ html,body{
     margin-right: 20px;
 }
 
-.first-container-main{
+.first-container-section{
     width: 100%;
     max-width: 1160px;
     margin: 0 auto;
@@ -52,14 +52,11 @@ html,body{
     background-repeat: no-repeat;
     background-position: center;
     height: 500px;
-}
-
-.first-container-main{
     display: flex;
     justify-content: flex-end;
 }
 
-.form-container-main{
+.form-container-section{
     position: relative;
     top: -15px;
     right: 30px;
@@ -71,24 +68,24 @@ html,body{
     box-shadow: 1px 1px 1px 1px rgba(180, 180, 180, 0.644);
 }
 
-.form-main h2{
+.form-section h2{
     font-weight: normal;
     font-size: 18px;
     background-color: #EAECEF;
     padding: 17px;
 }
 
-.form-main p{
+.form-section p{
     margin-left: 3.8%;
     font-size: 14px;
     color: rgb(56, 56, 56);
 }
 
-.form-main p:first-of-type{
+.form-section p:first-of-type{
     margin-top: 30px;
 }
 
-.form-main input{
+.form-section input{
     width: 100%;
     max-width: 92%;
     margin-left: 4%;
@@ -98,7 +95,7 @@ html,body{
     border: 1px solid rgba(90, 89, 89, 0.548)
 }
 
-.form-main input[type=submit]{
+.form-section input[type=submit]{
     background-color: #033C50;
     padding: 10px;
     color: white;
@@ -107,7 +104,7 @@ html,body{
     cursor: pointer;
 }
 
-.form-main span{
+.form-section span{
     margin-left: 4%;
     font-size: 14px;
     color: rgb(56, 56, 56);
@@ -137,15 +134,28 @@ html,body{
     font-weight: normal;
 }
 
+.arrow img{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-main{
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
 @media screen and (max-width:960px){
-    .first-container-main{
+    .first-container-section{
         justify-content: center;
     }
-    .form-container-main{
+    .form-container-section{
         top: 0;
         right: 0;
     }
-    .first-container-main{
+    .first-container-section{
         height: 530px;
     }
 }
@@ -160,7 +170,6 @@ html,body{
     }
 }
 
-
 @media screen and (max-width:510px){
     .center-header{
         flex-direction: column;
@@ -173,7 +182,7 @@ html,body{
         margin: 0;
     }  
     
-    .form-container-main{
+    .form-container-section{
         top: 0;
         right: 0;
     }
