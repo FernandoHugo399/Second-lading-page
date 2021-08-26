@@ -138,13 +138,33 @@ html,body{
     position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 0;
 }
 
 .container-main{
+    position: relative;
+    top: -68px;
     max-width: 1160px;
     width: 100%;
     margin: 0 auto;
-    display: flex;
+    z-index: -1;
+}
+  
+.flex-container{
+    display: flex; 
+}
+
+.item-1{
+    background-size: cover;
+    background-position: center;
+    width: 64%;
+}
+
+.item-2{
+    width: 36%;
+    padding: 100px 50px;
+    background-color: #4683AB;
+    color: white;
 }
 
 @media screen and (max-width:960px){
@@ -157,6 +177,24 @@ html,body{
     }
     .first-container-section{
         height: 530px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .item-1{
+        width: 100%;
+        height: 400px;
+        order: 0;
+    }
+    
+    .item-2{
+        width: 100%;
+        order: 1;
+        padding: 80px 40px;
     }
 }
 
