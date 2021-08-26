@@ -167,6 +167,30 @@ html,body{
     color: white;
 }
 
+.rodape{
+    margin-top: -30px;
+    text-align: center;
+    height: 170px;
+}
+
+.rodape .img{
+    margin: auto;
+    width: 100%;
+    max-width: 1160px;
+    margin-top: -80px;
+    background-color: #DCDCDC;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.rodape img{
+    width: 120px;
+}
+
+.rodape p{
+        margin-top: 8px;
+}
+
 @media screen and (max-width:960px){
     .first-container-section{
         justify-content: center;
