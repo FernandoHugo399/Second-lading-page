@@ -5,7 +5,9 @@
 ---
 
 ## :mag: About 
-Project based on one of the practical projects of the danki code course
+Lading page I made for responsive design training
+<br>
+It serves for hotels and resorts
 
 ## :rocket: Technologies used:
 <p align="center">
